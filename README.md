@@ -1,2 +1,2 @@
 # django
-Repo for suty django frameworks
+Repo for study django frameworks
