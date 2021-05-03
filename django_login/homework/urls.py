@@ -1,4 +1,4 @@
-"""django_login URL Configuration
+"""homework URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
@@ -16,10 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from login_test import urls
+from login import urls
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login_test', include(urls))
+    path('login', include(urls))
 ]
